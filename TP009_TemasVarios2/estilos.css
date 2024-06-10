@@ -1,0 +1,14 @@
+.div1
+{
+
+    width: 600px;
+    height: 150px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 50px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresando datos con JS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+<H1>ESTUDIANTES DE GRIFFINDOR</H1>
+
+    <div>
+        <label for="lblapellidoynombre">Ingrese Apellido y Nombre</label>
+        <input type="text" placeholder="Apellido y Nombre" id="idapellidoynombre">
+        <br>
+        
+        <label for="lblprovincia">Ingrese la Provincia</label>
+        <select name="provincia" id="idprovincia">
+            <option value="Catamarca">Catamarca</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Cordoba">Cordoba</option>
+        </select>
+        <br>
+        
+        <label for="lbldomicilio">Ingrese Domicilio</label>
+        <input type="" placeholder="Domicilio" id="iddomicilio">
+        <br>
+        
+        <label for="agregar"></label>
+        <input type="button" value="Agregar" id="idagregar">
+
+        <label for="limpiar prov"></label>
+        <input type="reset" value="Limpiar Prov." id="idlimpiarprov">
+
+        <label for="Mostrar"></label>
+        <input type="button" value="Mostrar" id="idmostrar">
+
+
+    </div>
+    <hr>
+
+    <div id="idcontenedor1">
+
+
+
+    </div>
+    <hr>
+
+    <br>
+    <div id="idcontenedor2">
+
+        <table border="5px">
+            <thead>
+                <tr>
+                    <th>Apellido</th>
+                    <th>Domicilio</th>
+                    <th>Provincia</th>
+                </tr>
+            </thead>
+            <tbody id="idbody">
+                <tr>
+                    <td>Veliz</td>
+                    <td>Villa Las Pirquitas</td>
+                    <td>Catamarca</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+    </div>
+
+    <script src="controlador.js"></script>
+</body>
+</html>
